@@ -1,0 +1,17 @@
+body {background-color: #f66;
+    position: relative}
+a {color:aliceblue}
+h1 {font-size: 70px;
+    color: #006}
+.desktop {display: inline}
+.mobile {display: none}
+.navbar-inverse {background-color: #3cf}
+
+
+
+.footer {text-align: center}
+
+@media only screen and (max-width: 480px) {
+    .desktop {display: none}
+    .mobile {display: inline}
+    
