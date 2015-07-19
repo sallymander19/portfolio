@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS File -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <link rel="stylesheet" href="portfolio.css">
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
       
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,49 +30,83 @@
               <span class="icon-bar"></span>
             </button>
         <a class="navbar-brand" href="index.html">Karen Nilson</a></div>
-        <div id="navbar" class="collapse navbar-collapse" aria-expanded="true">
+        <div id="navbar" class="collapse navbar-collapse" aria-expanded="true" role="navigation">
         <ul class="nav navbar-nav">
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li></ul>  
              </div></div>
       </nav>
       <div class="container" id="personal-info">
-          <div class="col-xs-4 col-md-4"><img class="img-responsive" src="images/BenjiSmaller.jpg" ></div>
-      <div class="col=xs-8 col-md-8"><h1>Karen Nilson</h1><br>
+          <div class="col-xs-4 col-md-4" id="personalpic"><img class="img-responsive" src="images/BenjiSmaller.jpg" alt="Karen Nilson"></div>
+      <div class="col=xs-8 col-md-8">
+          <div id="centeredlinks"><h1>Karen Nilson</h1><br>
           <a id="email" href="karennilson@live.com">Karennilson@live.com</a>
+              &nbsp;&nbsp;&nbsp;
     <span class="desktop">612-245-4330</span>
-        <span class="mobile"><a href="tel:612-245-4330">612-245-4330</a></span> 
-          <p>My name is Karen Nilson and I am an IT profesional who studied in .NET programming.</p></div></div>
+        <span class="mobile"><a href="tel:612-245-4330">612-245-4330</a></span></div> 
+          <p>My name is Karen Nilson and I am a 33 year old professional who went back to school to obtain my  AAS in .NET programming, with certification in Database developmemnt. I am looking for an entry level position in .<br> Click <a href="#">here</a> for more of my story.</p></div></div>
       <section>
-    <div id="skills" class="col-xs-12">
+      <div id="skills" class="container">
         <h2>Skills</h2>
-        <ul>
-        <li>jkdlsdjkfvckj dnmzxvjkcmx,vjknzdm,nfcxvjkm, nvjkdm,cnxjkm,vcfkdnjckvmznkd mc,nvfjkzdm,nxcvjkmdsznjfdsjfkdjdkjsojfdokjkldzfmsjkfjskldjfklsdklfnskldjjdklfjkldjfsdjklfjakldfjk;lds</li>
-        <li>nkashdjkfhdjksfnjkdhfjkdhsjkfhsjkdhf</li>
-        <li>hfjdkhsfjhdsjkaffhjkdshfjkdhasjhfhdjs</li></ul>
-    </div></section>
+          <div class="col-xs-4">
+        <h3><br><br>Programs</h3>
+        <ul><li>Microsoft Word</li>
+        <li>Microsoft Excel</li>
+        <li>Quickbooks</li>
+        <li>Wilcom digitizing software</li>
+        <li>Corel Draw</li></ul></div>
+          <div class="col-xs-4">
+          <h3><br>Work<br>Skills</h3>
+              <ul><li>Managed team of up to ten people</li>
+              <li>Bookeeping experience</li>
+              <li>Scheduling shifts</li>
+              <li>Balancing petty cash</li>
+              <li>Writing daily reports</li>
+              <li>Writing sales quotes</li>
+              </ul>
+          </div>
+          <div class="col-xs-4">
+          <h3><br>Other<br>Skills</h3>
+             <ul><li>Digitizing experience</li>
+             <li>Great people skills</li>
+             <li>Some graphic art experience</li>
+             <li>Some HTML experience</li></ul></div>
+          </div></section>
     <div id="gallery">
         <div class="col-xs-6">
         <a href="#"><img class="img-responsive" src="images%20copy/photo2.jpg" alt="screenshot1"></a></div>
         <div class="col-xs-6">
         <a href="#"><img class="img-responsive" src="images%20copy/photo3.jpg" alt="screenshot2"></a></div>
-        
-
-    </div>
+        </div>
       <section>
-      <div class="col-xs-12" id="education">
+      <div class="container" id="education">
           <h2>Education</h2>
-      <ul>
-          <li>jkldsjafkljsdklfjdaskljfkldsajfdkdjkasjfkldjsklfjdsklfjklsdjfkjdskljfkdsjklfjdksjfkldjskfjdk</li>
-          <li>fjkhsdjfhdjashfjdskhfjakhdjkahvkldjflkdjfklsdjklfjdkljfcvklfdjklgjrfgdko;jroklfjgvolkfdjgk;l</li>
-          <li>hfjdksahfjkdshfjkand,sand,nfm,dsnfm,nasd,mfn,sdnf,masndfndsm,fnd,msnf,mnds.afnf</li></ul>
+          <p>Studied at Hennepin Technical College</p>
+          <div class="col-xs-4">
+      <h3><br>Classes<br> taken</h3>
+          <ul><li>HTML</li>
+          <li>.NET Programming</li>
+          <li>Database Design and SQL</li></ul></div>
+          <div class="col-xs-4">
+          <h3><br><br>GPA</h3>
+              <ul id="GPA"><li>3.4</li></ul></div>
+             <div class="col-xs-4">
+          <h3 id="cert">Certificates<br>and<br>Degrees</h3>
+          <ul><li>A.A.S. in .NET Programming</li>
+          <li>Certificate in Database Development</li>
+          <li>Continuing on to obtain B.A.S. in Computer Science</li></ul></div>
       </div></section>
-          <footer class="footer">
+      
+      
+          <footer class="footer col-xs-12">
       <div class="container">
-        <a href="#">facebook</a>
-          <a href="#">twitter</a>
-          <a href="#">FAQ</a>
-          <a href="#">Refrences</a>
+          <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+          &nbsp;
+          <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+          &nbsp;
+          <a id="FAQ" href="#">FAQ</a>
+          &nbsp;
+          <a id="ref" href="#">Refrences</a>
           <p>Copyright © 2015 Karen Nilson</p>
           </div></footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
