@@ -20,12 +20,17 @@ a:hover {text-decoration: none;
     color: #5B809D}
 #personal-info p {font-family: Futura,"Trebuchet MS",Arial,sans-serif}
 #wrapper {font-family: Futura,"Trebuchet MS",Arial,sans-serif}
-h3 {text-align: center}
-#skills {padding-bottom: 60px}
-#gallery {padding-left: 15px}
+#skills {padding-bottom: 60px;
+    padding-top: 40px}
+#skills h3 {padding-left: 50px}
+#examples {padding-left: 15px;
+    padding-bottom: 40px;
+    padding-top: 40px}
 img {padding-bottom: 40px}
 #screenshot {text-align: center}
-#education {padding-bottom: 100px}
+#education {padding-bottom: 100px;
+    padding-top: 40px}
+#education h3 {padding-left: 50px}
 #education p {font-size: 20px}
 #GPA {list-style-type: none;
     font-size: 20px}
@@ -36,6 +41,7 @@ img {padding-bottom: 40px}
 @media only screen and (max-width: 480px) {
     .desktop {display: none}
     .mobile {display: inline}
-    h3 {text-align: left}
+#skills h3 {padding: 0}
+#education h3 {padding: 0}
 }
     
